@@ -1,0 +1,60 @@
+body{
+    margin: auto;
+    background-image: linear-gradient(rgb(117, 241, 117), rgb(11, 148, 130));   
+    height: 100%;
+}
+.body{
+ 
+    border: solid;
+    display: flex;
+    margin:5px ;
+    
+    
+}
+.menu{
+    display: block;
+    text-align: center;
+    margin: auto;
+    height: 50px;
+}
+.menu>a>button{
+
+    text-align: center;
+    height: 50px;
+    margin: auto;
+    width: 200px;
+}
+
+.main{
+    display: flex;
+    height: 50px;
+}
+.main>img{
+    height: 50px;
+    width: 50px;
+}
+.main>div{
+    font-size: 30px;
+    font-weight: bold;
+    color: brown;
+}
+.enebi{
+    display: flex   ;
+    justify-content: flex-end;
+    margin: auto;
+    margin-right: 5px;
+}
+.enebi>div{
+    padding: 5px;
+}
+
+.body>div{
+    font-size: large;
+    font-style: italic;
+    padding: 20px;
+}
+.body>div>button{
+    background-color: rgb(220, 223, 48);
+    font-size: 30px;
+    font-style: oblique;
+}

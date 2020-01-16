@@ -1,0 +1,73 @@
+body{
+    margin: auto;
+    
+    background-image: linear-gradient(rgb(117, 241, 117), rgb(11, 148, 130));   
+    
+}
+.enebi{
+    display: flex   ;
+    justify-content: flex-end;
+    margin: auto;
+    margin-right: 5px;
+}
+.enebi>div{
+    padding: 5px;
+}
+div{
+ 
+
+    margin:5px ;
+    
+    
+}
+.main{
+    display: flex;
+    height: 50px;
+}
+.main>img{
+    height: 50px;
+    width: 50px;
+}
+.main>div{
+    font-size: 30px;
+    font-weight: bold;
+    color: brown;
+}
+.menu{
+    text-align: center;
+    margin: auto;
+    height: 50px;
+}
+.menu>a>button{
+
+    text-align: center;
+    height: 50px;
+    margin: auto;
+    width: 200px;
+}
+
+.info{
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.info>div{
+    margin-top: 100px;
+}
+input, progress{
+    margin-top: 20px;
+}
+.body{
+    height: 700px;
+    display: flex;
+
+}
+footer{
+    background-color: rgb(77, 174, 253);
+    display: flex;
+ 
+}
+footer>div{
+    margin: auto;
+}

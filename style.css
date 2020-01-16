@@ -1,0 +1,84 @@
+body{
+    margin: auto;
+    background-image: linear-gradient(rgb(117, 241, 117), rgb(8, 117, 50));   
+}
+.enebi{
+    display: flex   ;
+    justify-content: flex-end;
+    margin: auto;
+    margin-right: 5px;
+}
+.enebi>div{
+    padding: 5px;
+}
+div{
+ 
+
+    display: flex;
+    margin:5px ;
+    
+    
+}
+.main{
+    display: flex;
+    height: 50px;
+}
+.main>img{
+    height: 50px;
+    width: 50px;
+}
+.main>div{
+    font-size: 30px;
+    font-weight: bold;
+    color: brown;
+}
+.menu{
+    display: block;
+    text-align: center;
+    margin: auto;
+    height: 50px;
+}
+.menu>a>button{
+
+    text-align: center;
+    height: 50px;
+    margin: auto;
+    width: 200px;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: auto;
+}
+
+video{
+    width: 75%;
+    margin: auto;
+}
+
+img{
+    display: block;
+    height: 250px;
+    width: 250px; 
+}
+.gverdebi>div{
+    margin: auto;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.body>div>div{
+    flex-direction: column;
+}
+.body>div>div>a>button{
+    background-color: rgb(146, 240, 69);
+    font-weight: bold;
+    height: 40px;
+    width: 250px;
+}
+
+.body>div{
+    margin: auto;
+}

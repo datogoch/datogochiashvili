@@ -1,0 +1,47 @@
+body{
+    margin: auto;
+    background-image: linear-gradient(rgb(117, 241, 117), rgb(11, 148, 130));   
+}
+.enebi{
+    display: flex   ;
+    justify-content: flex-end;
+    margin: auto;
+    margin-right: 5px;
+}
+.enebi>div{
+    padding: 5px;
+}
+.main{
+    display: flex;
+    height: 50px;
+}
+.main>img{
+    height: 50px;
+    width: 50px;
+}
+.main>div{
+    font-size: 30px;
+    font-weight: bold;
+    color: brown;
+}
+.menu{
+    display: block;
+    text-align: center;
+    margin: auto;
+    height: 50px;
+}
+.menu>a>button{
+
+    text-align: center;
+    height: 50px;
+    margin: auto;
+    width: 200px;
+}
+.info{
+    margin: auto;
+    height: 500px ;
+}
+.info>div{
+    text-align: center;
+    margin-top: 100px;
+}
